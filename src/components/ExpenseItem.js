@@ -1,5 +1,15 @@
-function ExpenseItem (){
-    return <h2>Expense Item!</h2>
-}
+import './ExpenseItem.css';
 
-export default ExpenseItem;
+function ExpenseItem() {
+  return (
+    <div className="expense-item">
+      <div>July 30 2021</div>
+      <div className="expense-item_description">
+        <h2>Car Insurance</h2>
+        <div className= "expense-item_price">$294.67</div>
+      </div>
+    </div>
+  );
+  }
+  
+  export default ExpenseItem;
